@@ -68,7 +68,7 @@ app.put('/cat', (req, res) => {
 // delete
 app.delete('/cat/:id', (req, res) => {
     cats = cats.filter(cat => cat.id !== req.params.id)
-    res.send({ message: `deleted cat with id ${req.params.id}`, cats })
+    res.send({ message: `adopted cat with id ${req.params.id}`, cats })
 
 })
 

@@ -2,6 +2,9 @@ const apiUrl = 'http://localhost:3000'; // Replace with your actual API base URL
 const catList = document.getElementById("catList");
 
 async function getAllCats() {
+    // Implement logic to call the API endpoint to get all cats
+    // Use fetch or any AJAX library you prefer
+
     const response = await fetch(`${apiUrl}/cats`)
     const cats = await response.json();
     console.log("cats", cats);
@@ -11,8 +14,6 @@ async function getAllCats() {
         catDiv.innerHTML = `<code>${JSON.stringify(cat)}</code>`
         catList.appendChild(catDiv);
     }
-    // Implement logic to call the API endpoint to get all cats
-    // Use fetch or any AJAX library you prefer
 }
 
 async function addCat() {
@@ -23,8 +24,6 @@ async function addCat() {
 
     // Check if name and age are provided
     if (catName && catAge) {
-        // Implement logic to call the API endpoint to add a cat
-        // Use fetch or any AJAX library you prefer
         const requestOptions = {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
@@ -56,8 +55,6 @@ async function updateCat() {
 
     // Check if all fields are provided
     if (updateCatId && updatedCatName && updatedCatAge) {
-        // Implement logic to call the API endpoint to update a cat
-        // Use fetch or any AJAX library you prefer
         const requestOptions = {
             method: 'PUT',
             headers: { 'Content-Type': 'application/json' },
@@ -85,8 +82,6 @@ async function adoptCat() {
 
     // Check if Cat ID is provided
     if (deleteCatId) {
-        // Implement logic to call the API endpoint to delete a cat by ID
-        // Use fetch or any AJAX library you prefer
         const requestOptions = {
             method: 'DElETE',
             headers: { 'Content-Type': 'application/json' },
