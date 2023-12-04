@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cat Shelter App</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Cat Shelter App</h1>
+
+        <form id="addCatForm">
+            <label for="catName">Name:</label>
+            <input type="text" id="catName" name="catName" required>
+
+            <label for="catAge">Age:</label>
+            <input type="number" id="catAge" name="catAge" required>
+
+            <button type="button" onclick="addCat()">Add Cat</button>
+        </form>
+
+        <form id="updateCatForm">
+            <label for="updateCatId">Cat ID:</label>
+            <input type="text" id="updateCatId" name="updateCatId" required>
+
+            <label for="updatedCatName">Updated Name:</label>
+            <input type="text" id="updatedCatName" name="updatedCatName" required>
+
+            <label for="updatedCatAge">Updated Age:</label>
+            <input type="number" id="updatedCatAge" name="updatedCatAge" required>
+
+            <button type="button" onclick="updateCat()">Update Cat</button>
+        </form>
+
+        <form id="deleteCatForm">
+            <label for="deleteCatId">Delete Cat by ID:</label>
+            <input type="text" id="deleteCatId" name="deleteCatId" required>
+
+            <button type="button" onclick="adoptCat()">Adopt Cat</button>
+        </form>
+
+        <button onclick="getAllCats()">Get All Cats</button>
+
+        <div id="catList"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
