@@ -26,7 +26,7 @@
 | description                      | time        |
 | -------------------------------- | ----------- |
 | warmup                           | 6:00 - 6:20 |
-| REVIEW: reinforce learned topics | 6:20 - 9    |
+| REVIEW: reinforce learned topics | 6:20 - 9:00 |
 ## Friday
 | description                         | time        |
 | ----------------------------------- | ----------- |
@@ -34,10 +34,10 @@
 | lecture: CLIs and Inquirer          | 6:20 - 6:50 |
 | activity: mental health checker CLI | 7:30 - 8:00 |
 | go over: mental health checker CLI  | 8:00 - 9:00 |
-## Friday
-| description                         | time        |
-| ----------------------------------- | ----------- |
-| warmup                              | 6:00 - 6:20 |
-| lecture: CLIs and Inquirer          | 6:20 - 6:50 |
-| activity: mental health checker CLI | 7:30 - 8:00 |
-| go over: mental health checker CLI  | 8:00 - 9:00 |
+## ~~Friday~~
+| ~~description~~                         | ~~time~~        |
+| --------------------------------------- | --------------- |
+| ~~warmup~~                              | ~~6:00 - 6:20~~ |
+| ~~lecture: CLIs and Inquirer~~          | ~~6:20 - 6:50~~ |
+| ~~activity: mental health checker CLI~~ | ~~7:30 - 8:00~~ |
+| ~~go over: mental health checker CLI~~  | ~~8:00 - 9:00~~ |
