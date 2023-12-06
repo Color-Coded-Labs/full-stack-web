@@ -23,12 +23,17 @@
 | lecture: implement an API     | 8:00 - 8:30 |
 | activity: implement an API    | 8:30 - 9:00 |
 ## Thursday
-| description                                      | time        |
-| ------------------------------------------------ | ----------- |
-| warmup                                           | 6:00 - 6:20 |
-| lecture: connecting the frontend and the backend | 6:20 - 6:50 |
-| activity: build a frontend for your api          | 7:30 - 8:00 |
-| free time: work on homework                      | 8:00 - 9:00 |
+| description                      | time        |
+| -------------------------------- | ----------- |
+| warmup                           | 6:00 - 6:20 |
+| REVIEW: reinforce learned topics | 6:20 - 9    |
+## Friday
+| description                         | time        |
+| ----------------------------------- | ----------- |
+| warmup                              | 6:00 - 6:20 |
+| lecture: CLIs and Inquirer          | 6:20 - 6:50 |
+| activity: mental health checker CLI | 7:30 - 8:00 |
+| go over: mental health checker CLI  | 8:00 - 9:00 |
 ## Friday
 | description                         | time        |
 | ----------------------------------- | ----------- |
