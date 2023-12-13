@@ -87,6 +87,7 @@ async function adoptCat() {
             headers: { 'Content-Type': 'application/json' },
         };
         const response = await fetch(`${apiUrl}/cat/${id}`, requestOptions);
+        // object destructuring:
         const { message, cats } = await response.json();
 
         alert(message);
